@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PCM1863")(type "KiCad")(uri "${KIPRJMOD}/symbols/PCM1863.kicad_sym")(options "")(descr ""))
+  (lib (name "AK4432")(type "KiCad")(uri "${KIPRJMOD}/symbols/AK4432.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74AVC1T45")(type "KiCad")(uri "${KIPRJMOD}/symbols/SN74AVC1T45.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74HC74DR_flip-flop")(type "KiCad")(uri "${KIPRJMOD}/symbols/SN74HC74DR_flip-flop.kicad_sym")(options "")(descr ""))
+)

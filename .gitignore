@@ -1,1 +1,6 @@
-AK4423_PCM1863_breakout_board-backups/
+AK4432_PCM1863_breakout_board-backups/
+fp-info-cache
+\#auto_saved_files\#
+*.lck
+mog/
+incoming/
