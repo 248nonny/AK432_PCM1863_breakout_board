@@ -1871,6 +1871,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers
 				(hide yes)
@@ -8243,7 +8404,7 @@
 		)
 		(uuid "24b300e8-1a40-4221-ae5b-ac5b73d94010")
 	)
-	(label "R1{slash}2P"
+	(label "R1_2P"
 		(at 377.19 82.55 180)
 		(effects
 			(font
@@ -8283,7 +8444,7 @@
 		)
 		(uuid "38241962-6102-4e6a-a08c-0046fe528acf")
 	)
-	(label "L4{slash}4M"
+	(label "L4_4M"
 		(at 407.67 82.55 0)
 		(effects
 			(font
@@ -8303,7 +8464,7 @@
 		)
 		(uuid "3db67f3f-9444-4180-901e-585080234f2c")
 	)
-	(label "L1{slash}1P"
+	(label "L1_1P"
 		(at 378.46 85.09 180)
 		(effects
 			(font
@@ -8383,7 +8544,7 @@
 		)
 		(uuid "6ad0c0c4-efe5-4010-9b66-fa798a615251")
 	)
-	(label "L3{slash}4P"
+	(label "L3_4P"
 		(at 405.13 87.63 0)
 		(effects
 			(font
@@ -8443,7 +8604,7 @@
 		)
 		(uuid "782a3579-131b-4b63-903b-da63a8411815")
 	)
-	(label "R4{slash}3M"
+	(label "R4_3M"
 		(at 406.4 85.09 0)
 		(effects
 			(font
@@ -8683,7 +8844,7 @@
 		)
 		(uuid "bf933639-ac35-4697-b02e-4bd5070434e1")
 	)
-	(label "R2{slash}2M"
+	(label "R2_2M"
 		(at 379.73 87.63 180)
 		(effects
 			(font
@@ -8793,7 +8954,7 @@
 		)
 		(uuid "d8f5086b-d583-44e7-8397-4a1f96b3ad2e")
 	)
-	(label "L2{slash}1M"
+	(label "L2_1M"
 		(at 381 90.17 180)
 		(effects
 			(font
@@ -8843,7 +9004,7 @@
 		)
 		(uuid "ed8eecd5-3bca-48f2-8d38-54a9d1beb633")
 	)
-	(label "R3{slash}3P"
+	(label "R3_3P"
 		(at 403.86 90.17 0)
 		(effects
 			(font
@@ -9763,76 +9924,6 @@
 			(project "AK4432_PCM1863_breakout_board"
 				(path "/8c03b016-3db6-4507-be73-495931c2d93e"
 					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 237.49 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3335cbd6-4447-43d4-a524-7de2d3ae8555")
-		(property "Reference" "C1"
-			(at 241.3 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 241.3 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 238.4552 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 237.49 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ec479761-320f-4a7b-8271-5376cc5cc593")
-		)
-		(pin "1"
-			(uuid "7adeec61-6192-4b53-a832-349440877274")
-		)
-		(instances
-			(project "AK4432_PCM1863_breakout_board"
-				(path "/8c03b016-3db6-4507-be73-495931c2d93e"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -12118,76 +12209,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 341.63 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87f2b3ea-1f88-40a9-876b-9ab1471f357e")
-		(property "Reference" "C5"
-			(at 345.44 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 345.44 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 342.5952 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 341.63 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 341.63 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "83dba571-d28b-4f79-8680-50055f68a896")
-		)
-		(pin "1"
-			(uuid "aa0e3f2b-045e-4fa1-b3f4-1a899699c73c")
-		)
-		(instances
-			(project "AK4432_PCM1863_breakout_board"
-				(path "/8c03b016-3db6-4507-be73-495931c2d93e"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 66.04 135.89 0)
 		(mirror y)
@@ -12607,6 +12628,76 @@
 			(project "AK4432_PCM1863_breakout_board"
 				(path "/8c03b016-3db6-4507-be73-495931c2d93e"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 341.63 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "987f0a7c-5347-4754-96aa-40b6434f663b")
+		(property "Reference" "C5"
+			(at 345.44 43.5609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 345.44 46.1009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+			(at 342.5952 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 341.63 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 341.63 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02059070-2fa1-436f-8283-85697b346dfb")
+		)
+		(pin "1"
+			(uuid "01b33d40-3ed4-4ffb-bf62-bbc00ada5170")
+		)
+		(instances
+			(project "AK4432_PCM1863_breakout_board"
+				(path "/8c03b016-3db6-4507-be73-495931c2d93e"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -14465,6 +14556,76 @@
 			(project "AK4432_PCM1863_breakout_board"
 				(path "/8c03b016-3db6-4507-be73-495931c2d93e"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 237.49 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1be04ac-1a66-40d2-83c5-a8cf866f300f")
+		(property "Reference" "C1"
+			(at 241.3 38.4809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 241.3 41.0209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+			(at 238.4552 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 237.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "12bb3a43-634e-41cd-88be-a10f676ca4be")
+		)
+		(pin "1"
+			(uuid "669abd73-c388-44a5-aae0-85d8e04ce7f9")
+		)
+		(instances
+			(project ""
+				(path "/8c03b016-3db6-4507-be73-495931c2d93e"
+					(reference "C1")
 					(unit 1)
 				)
 			)
