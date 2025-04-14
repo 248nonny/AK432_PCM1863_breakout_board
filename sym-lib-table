@@ -5,4 +5,5 @@
   (lib (name "SN74AVC1T45")(type "KiCad")(uri "${KIPRJMOD}/symbols/SN74AVC1T45.kicad_sym")(options "")(descr ""))
   (lib (name "SN74HC74DR_flip-flop")(type "KiCad")(uri "${KIPRJMOD}/symbols/SN74HC74DR_flip-flop.kicad_sym")(options "")(descr ""))
   (lib (name "SN74LVC1G04_inverter")(type "KiCad")(uri "${KIPRJMOD}/symbols/SN74LVC1G04_inverter.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LVC1G74DCUR-flip-flop")(type "KiCad")(uri "${KIPRJMOD}/symbols/SN74LVC1G74DCUR-flip-flop.kicad_sym")(options "")(descr ""))
 )

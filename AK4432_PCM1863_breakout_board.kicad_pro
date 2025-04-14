@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 3.2,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|93810000|76600000|b1688dc6-63a2-42bb-9ca7-ab0c61d9dec8|1a74b6b4-783d-4984-a84e-b42a9a532637",
+          "Component is just small lol"
+        ],
+        [
+          "starved_thermal|108119998|75054350|0e624099-c048-4788-a8dc-ddc28c77e450|66c2e2ee-83ca-4f8c-9ade-ea6b9ebbf257|F.Cu",
+          "Added trace manually"
+        ]
+      ],
       "meta": {
         "version": 2
       },
